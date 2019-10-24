@@ -20,7 +20,7 @@ default:
  */
 
 switch leaguePosition {
-case: 1 2 3
+case "1", "2", "3" :
     print("Medal winners")
 default:
     print("No Medal")
